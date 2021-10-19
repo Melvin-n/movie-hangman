@@ -16,3 +16,12 @@ body{
     align-items: center;  
     font-size: 30px;
 }
+
+#end-game{
+    color: black;
+}
+
+#end-game.hidden{
+    visibility: hidden;
+}
+
