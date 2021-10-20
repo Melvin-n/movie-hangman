@@ -9,6 +9,7 @@ let wordDisplay = document.getElementById("word");
 let wordArray = [];
 let preWordDisplay = [];
 let endGame = document.getElementById("end-game");
+endGame.innerHTML = `Letters guessed: ${guessArray.join(' ')}`
 const replayButton = document.querySelector("#button");
 //async function to get random move from moviedb API
 const getMovie = async () => {
@@ -79,6 +80,7 @@ function render() {
     }
   });
   console.log(preWordDisplay);
+  endGame.innerHTML = `Letters guessed: ${guessArray.join(' ')}`
   wordDisplay.innerHTML = preWordDisplay.join("");
 }
 //check win and lose condition by checking if the preworddisplay array includes any '*' for win | check if guesses <= 0 for loss

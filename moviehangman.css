@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     font-family: 'Hind Siliguri', sans-serif;
     background-image: url('images/filmreel.jpg'); 
@@ -53,23 +53,26 @@ h1{
 }
 
 #guesses-remaining{
-    margin-top: 70px;
+    margin-top: 50px;
+    font-size: 30px;
 }
  
 #end-game{
     text-align: center;
     font-family: 'Hind Siliguri', sans-serif;
     color: blanchedalmond;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
-
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: ;
-    flex-wrap: wrap;
-    height: 100px;
-*/
 }  
 
+#logoText{
+    justify-self: end;
+    align-self: end;
+    margin-right: 50px;
+    
+    
+}
+#logo{
+    width: 50px;
+
+}
